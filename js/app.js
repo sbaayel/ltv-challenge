@@ -23,6 +23,7 @@ $(document).ready(function () {
         .then(function (contents) {
           localStorage.setItem("userObject", contents);
           window.location.href = "result.html";
+          hideSpinner();
         })
         .catch((e) => console.log(e));
     } else if (x !== true) {
