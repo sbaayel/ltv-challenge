@@ -103,6 +103,7 @@ section {
 ************************************************************ */
 
 .btn-form-submit {
+  
   font-size: 24px;
   font-weight: bold;
   color: #004A80;
@@ -114,6 +115,10 @@ section {
   -webkit-appearance: none;
   width: 180px;
   margin-left: 20px;
+  
+}
+.btn-form-submit:hover {
+  background-color: #F6BC25;
 }
 
 .input-group > .form-control {
